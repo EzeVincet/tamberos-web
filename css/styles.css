@@ -1,3 +1,11 @@
+/*/// RESET CSS ////*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 /*//////////////// GRID CONTAINER ///////////////////////*/
 
 
@@ -16,8 +24,34 @@
 /* //////////////////////////////// HEADER ///////////////////////// */
 .header {
     grid-area: header;
-
-
+}
+/** menu **/
+.container-grid .header .nav-menu img{
+    width: 55%;
+}
+.container-grid .header .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsla(33, 13%, 14%, 0.486);
+}
+.container-grid .header .nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+.container-grid .header .nav-menu li{    
+    margin: 10px 35px 0px 1px;    
+}
+.container-grid .header .nav-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+}
+.container-grid .header .nav-menu a:hover{
+    color: rgb(19, 41, 2);
+    font-weight: bold; 
+    text-shadow: 5px 5px 10px black;     
 }
 
 /* //////////////////////////// MAIN ////////////////////////////// */
