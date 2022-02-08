@@ -1,0 +1,38 @@
+/*//////////////// GRID CONTAINER ///////////////////////*/
+
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+/* //////////////////////////////// HEADER ///////////////////////// */
+.header {
+    grid-area: header;
+
+
+}
+
+/* //////////////////////////// MAIN ////////////////////////////// */
+.main {
+    grid-area: main;
+
+
+}
+
+/*///////////////////////////FOOTER /////////////////////////////////*/
+.footer {
+    grid-area: footer;
+
+    
+}
+
+
+/*/////////////////FIN GRID CONTAINER ////////////////*
