@@ -6,9 +6,17 @@
 }
 
 html {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html p{
     text-align: justify;
 }
 
+html h2{
+    font-family: 'Roboto Slab', serif;
+    
+}
 
 /*//////////////// GRID CONTAINER ///////////////////////*/
 
