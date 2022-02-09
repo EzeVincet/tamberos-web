@@ -16,7 +16,7 @@ html {
 .container-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1.5fr 0.3fr;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -84,27 +84,28 @@ html {
 .main {
     grid-area: main;
     width: 100%;
-    
+
     display: flex;
     justify-content: center;
 }
 
 .main .contenedor-main .titulo-section {
-    
     background-color: #eadbc494;
     padding: 2rem;
     display: flex;
     justify-content: center;
 }
-.main .contenedor-main .titulo-section h1{
+
+.main .contenedor-main .titulo-section h1 {
     border-top: darkgreen solid 1px;
     font-size: 2rem;
 }
+
 .main .contenedor-main {
     width: 80%;
-    margin-top: -187px; 
+    margin-top: -187px;
     background-color: rgb(255, 255, 255);
-   
+
     /* Sombra en el contenedor central */
     box-shadow: 1px -13px 40px -5px rgba(14, 28, 23, 0.64);
     -webkit-box-shadow: 1px -13px 40px -5px rgba(14, 28, 23, 0.64);
@@ -130,9 +131,56 @@ html {
 /*///////////////////////////FOOTER /////////////////////////////////*/
 .footer {
     grid-area: footer;
+    background-color: rgb(94, 83, 50);    
+}
 
+.footer .footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer .legal{
+    display: flex;
+    justify-content: center;
+    background-color: black; 
+    color: blanchedalmond;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.footer .footer-container .coop-footer{
+    padding: 1rem;
+    border-right: rgb(41, 36, 22) 1px solid;
+}
+.footer .footer-container .contact-footer{
+    border-right: rgb(41, 36, 22) 1px solid;
+    padding: 3rem;
+    padding-right: 10rem;    
+}
+.footer .footer-container .link-footer{
+    padding: 1rem;
+    padding-right: 10rem;  
+}
+.footer .footer-container .link-footer h3{
+    margin-bottom: 0.5rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.76);
+    margin-left: 1rem;   
+}
+.footer ul{
+    list-style: none;
+}
+.footer h4,h3{
+    color: cadetblue;
+}
+.footer i{
+    color: cadetblue;
+    width: 2rem;
 
 }
+
+
 
 
 /*/////////////////FIN GRID CONTAINER ////////////////*
