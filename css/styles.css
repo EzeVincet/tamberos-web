@@ -247,6 +247,36 @@ h3 {
     margin-top: 2rem;
 }
 
+/*//////////// SILOS ////////////////*/
+
+.main .silo section div img {
+    width: 450px;
+    border-radius: 0%;
+    border: 5px hsla(0, 0%, 100%, 0.425) solid;
+    /* ---------------------------------------------------https://shadows.brumm.af/ */
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, -0.001),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.006),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.016),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.029),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.044),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.main .silo {
+    margin-top: -187px;
+}
+
+.main .silo section div h3{
+    margin-left: 2rem;
+}
+.main .silo section div ul{
+    margin-left: 3rem;
+}
+.main .silo section div form{
+    margin: 3rem 3rem 3rem 3rem;
+    
+}
 
 /*//////////////// MEDIA QUERY /////////////*/
 
