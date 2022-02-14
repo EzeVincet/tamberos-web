@@ -311,6 +311,45 @@ h3 {
 
 
 /*//////////////// MEDIA QUERY /////////////*/
+@media only screen and (max-width:1400px){
+    .main .silo  {       
+        margin-top: -400px;
+     }
+}
+
+@media only screen and (max-width:1200px){
+    
+    .main .silo section div img {
+        width: 250px;
+        border-radius: 0%;
+        border: 5px hsla(0, 0%, 100%, 0.425) solid;
+        /* ---------------------------------------------------https://shadows.brumm.af/ */
+        box-shadow:
+            2.8px 2.8px 2.2px rgba(0, 0, 0, -0.001),
+            6.7px 6.7px 5.3px rgba(0, 0, 0, 0.006),
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.016),
+            22.3px 22.3px 17.9px rgba(0, 0, 0, 0.029),
+            41.8px 41.8px 33.4px rgba(0, 0, 0, 0.044),
+            100px 100px 80px rgba(0, 0, 0, 0.07);       
+   
+        }
+    .main .silo  {
+      
+       padding: 0;
+       margin-top: -400px;
+    }
+   
+    /* .main .silo .text-silo{
+        position: relative;
+    }
+    .footer {
+        position:relative;
+    }
+    .main .silo {
+        position: absolute;
+       
+    } */
+}
 
 @media only screen and (max-width:1094px) {
     .footer .footer-container .coop-footer {
@@ -331,6 +370,10 @@ h3 {
     .footer .footer-container .legal {
         margin-top: 50px;
     }
+   
+    .main .silo  {       
+        margin-top: -400px;
+     }  
 }
 
 @media only screen and (max-width:768px) {
@@ -350,8 +393,11 @@ h3 {
     }
 
     .footer .legal {
-        margin-top: 50git stapx;
+        margin-top: 50px;
     }
+    .main .silo  {       
+        margin-top: -500px;
+     }
 }
 
 @media only screen and (max-width:695px) {
@@ -372,6 +418,9 @@ h3 {
     .main .personal {
         margin-top: -180px;
     }
+    .main .silo  {       
+        margin-top: -600px;
+     }
 }
 
 @media only screen and (max-width:550px) {
@@ -394,6 +443,12 @@ h3 {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 0.3fr 0.1fr 0.1fr;
     }
+    .main .silo  {   
+        display: flex;    
+        margin-top: -200px;
+      
+       
+     }
 }
 
 
@@ -428,4 +483,8 @@ h3 {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 0.3fr 0.1fr 0.1fr;
     }
+    .main .silo  {       
+        margin-top: -10px;
+       
+     }
 }
