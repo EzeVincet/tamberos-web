@@ -299,6 +299,7 @@ h3 {
     object-fit: cover;
 }
 
+
 .galeria-items:nth-child(4) {
     grid-column-start: span 2;
 
@@ -309,16 +310,48 @@ h3 {
 
 }
 
-
-/*//////////////// MEDIA QUERY /////////////*/
-@media only screen and (max-width:1400px){
-    .main .silo  {       
-        margin-top: -400px;
-     }
+/*//////////////// PICADO ///////////////*/
+.main .picado {
+    margin-top: -330px;
 }
 
-@media only screen and (max-width:1200px){
-    
+.main .picado .text-picado {
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+.main .picado .img-picadora {
+    display: flex;
+    justify-content: center;
+}
+
+.main .picado .img-picadora img {
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.main .picado .contacto-grid {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-bottom: -180px;
+}
+
+.main .picado section h3 {
+    background-color: antiquewhite;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/*//////////////// MEDIA QUERY /////////////*/
+@media only screen and (max-width:1400px) {
+    .main .silo {
+        margin-top: -400px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
     .main .silo section div img {
         width: 250px;
         border-radius: 0%;
@@ -330,25 +363,25 @@ h3 {
             12.5px 12.5px 10px rgba(0, 0, 0, 0.016),
             22.3px 22.3px 17.9px rgba(0, 0, 0, 0.029),
             41.8px 41.8px 33.4px rgba(0, 0, 0, 0.044),
-            100px 100px 80px rgba(0, 0, 0, 0.07);       
-   
-        }
-    .main .silo  {
-      
-       padding: 0;
-       margin-top: -400px;
+            100px 100px 80px rgba(0, 0, 0, 0.07);
+
     }
-   
-    /* .main .silo .text-silo{
-        position: relative;
-    }
-    .footer {
-        position:relative;
-    }
+
     .main .silo {
-        position: absolute;
-       
-    } */
+
+        padding: 0;
+        margin-top: -400px;
+    }
+
+    .main .picado .contacto-grid {
+       margin-bottom: 70px;
+    }
+    .main .picado .text-picado {
+        width: 100%;
+        margin: 0;
+        
+    }
+    
 }
 
 @media only screen and (max-width:1094px) {
@@ -370,10 +403,18 @@ h3 {
     .footer .footer-container .legal {
         margin-top: 50px;
     }
-   
-    .main .silo  {       
+
+    .main .silo {
         margin-top: -400px;
-     }  
+    }
+    .main .picado .contacto-grid {
+        margin-bottom: -100px;
+     }
+     .main .picado .text-picado {
+         width: 100%;
+         margin: 0;
+         
+     }
 }
 
 @media only screen and (max-width:768px) {
@@ -395,8 +436,25 @@ h3 {
     .footer .legal {
         margin-top: 50px;
     }
-    .main .silo  {       
+
+    .main .silo {
         margin-top: -500px;
+    }
+    .main .picado .contacto-grid {
+        margin-bottom: -50px;
+    }
+     .main .picado .text-picado {
+         width: 100%;
+         margin: 0;
+         padding: 10px;
+         text-align: justify;         
+     }
+     .main .picado .video-picado{
+         display: flex;
+         justify-content: center;        
+     }
+     .main .picado .video-picado iframe{
+         width: 80%;
      }
 }
 
@@ -418,37 +476,42 @@ h3 {
     .main .personal {
         margin-top: -180px;
     }
-    .main .silo  {       
+
+    .main .silo {
         margin-top: -600px;
-     }
+    }
 }
 
 @media only screen and (max-width:550px) {
     .main .personal section img {
         width: 100px;
     }
+
     .mercado-contenedor {
         width: 80%;
-        margin-top: 0px;       
-        padding: 10px;        
+        margin-top: 0px;
+        padding: 10px;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 5px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+
     .galeria-items:nth-child(4) {
-        display: none;    
+        display: none;
     }
+
     .container-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 0.3fr 0.1fr 0.1fr;
     }
-    .main .silo  {   
-        display: flex;    
+
+    .main .silo {
+        display: flex;
         margin-top: -200px;
-      
-       
-     }
+
+
+    }
 }
 
 
@@ -468,23 +531,26 @@ h3 {
 
     .mercado-contenedor {
         width: 80%;
-        margin-top: 0px;       
-        padding: 10px;        
+        margin-top: 0px;
+        padding: 10px;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 5px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+
     .galeria-items:nth-child(4) {
         display: none;
-    
+
     }
+
     .container-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 0.3fr 0.1fr 0.1fr;
     }
-    .main .silo  {       
+
+    .main .silo {
         margin-top: -10px;
-       
-     }
+
+    }
 }

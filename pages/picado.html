@@ -41,43 +41,55 @@
         <!-- fin header -->
 
         <!-- Main --------------------------------------->
-        <main class="main">
+        
+         <!-- Comienzo Main -->
+    <main class="main">
 
-            <section class="mercado-contenedor">
-                <!-- Contenedor de las imagenes se utiliza grid -->
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/1.jpg" alt="">
-                </div>
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/2.jpg" alt="">
-                </div>
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/3.jpg" alt="">
-                </div>
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/4.jpg" alt="">
-                </div>
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/5.jpg" alt="">
-                </div>
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/6.jpg" alt="">
-                </div>
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/7.png" alt="">
-                </div>
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/8.jpg" alt="">
-                </div>
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/9.jpg" alt="">
-                </div>
-                <div class="galeria-items">
-                    <img class="galeria-img" src="../media/img/mercado/10.jpg" alt="">
-                </div>
+        <section class="picado">
+            <section class="text-picado">
+                <H2>Servicio de picado</H2>
+                En los últimos años ha crecido en el país la conservación de forraje húmedo y fermentado dentro de silos
+                en anaerobiosis. Se llama silaje a este alimento de gramíneas picadas en el momento en que grano y
+                follaje están en la mejor relación de digestibilidad. También se pican leguminosas, como la alfalfa.
+
+                La técnica de conservar y racionar el forraje de esta manera se expandió en nuestro país en la década de
+                los ’90 de la mano de la importación de grandes máquinas autopropulsadas de Europa. Los productores
+                lecheros hicieron punta y luego lo siguieron los feedloteros, viendo que al mezclar este súper alimento
+                con algún concentrado proteico y un núcleo mineral bastaba para mantener una alta producción estable en
+                el año.
             </section>
+            <section class="img-picadora">
+                <img src="../media/img/Picadora.jpg" alt="">
+            </section>
+            <section class="video-picado">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nTXVjFFiZSc?start=9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </section>
+            <section >
+                <h3>Solicite turno aquí</h3>
+                <div class="contacto-grid">
+                    
+                    <!-- formulario de contacto -->
+                    <form action="paginaweb.php" method="post">
+                        <label for="nombre_apellido">Nombre:</label>
+                        <input type="text" name="nombre_apellido" placeholder="Escriba su nombre"><br><br>
+                        <label for="nombre_apellido">Apellido:</label>
+                        <input type="text" name="nombre_apellido" placeholder="Escriba su apellido"><br> <br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="nombre@ejemplo.com"><br><br>
+                        <label for="caja">Escriba su comentario</label><br>
+                        <textarea name="caja" id="" cols="30" rows="10"></textarea><br></br>
+                        <input type="reset" value="Limpiar" id="">
+                        <input type="submit" value="Enviar" id="">
+                    </form>
+                    <!-- fin del formulario -->
+                </div>
+            </div>
+        </div>
 
-        </main>
+    </main>
 
         <!-- fin main -->
 
