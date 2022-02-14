@@ -307,8 +307,12 @@ h3 {
 
 .galeria-items:nth-child(5) {
     grid-row-start: span 2;
-
 }
+.mercado-contenedor img:hover {    
+    transform:scale(1.3);
+    transition: all 0.5s 0s ease;  
+}
+
 
 /*//////////////// PICADO ///////////////*/
 .main .picado {
